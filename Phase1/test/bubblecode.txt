@@ -2,6 +2,7 @@
 arr : .word 4 -2 1 9 -8 7 10 5
 len : .word 8
 
+
 .text
 lw x5, len # length of the array # n 
 la x6, arr # base address of array
